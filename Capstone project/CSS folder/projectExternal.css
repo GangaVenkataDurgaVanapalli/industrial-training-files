@@ -1,0 +1,554 @@
+.a{
+    height:100%;
+    width: 100%;
+    background-image: url('../images/ship.jpg');
+    background-size: cover;
+}
+p{
+    color: white;
+    margin-left: 130px;
+    
+}
+h1{
+    color: white;
+    margin-left: 130px;
+    font-size:50px;
+}
+h2{
+    color: black;
+    font-size: 40px;
+}
+h3{
+    color: rgb(125, 119, 119);
+    margin-right: 50px;
+    margin-left: 50px;
+}
+h4{
+    color: white;
+}
+.font{
+    color: white;
+    font-size: 40px;
+}
+.bg{
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 90px;
+}
+.box{
+    height: 30px;
+    width: 110px;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    margin-left: 100px;
+    text-align: center;
+   
+}
+.mr{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 60px;
+}
+.vg{
+    color: black;
+    font-size: 25px;
+}
+.sub{
+    color: black;
+    text-align: center;
+    font-size: 60px;
+}
+.gv{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+.main{
+    height: 30px;
+    width: 130px;
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+    background-color: black;
+    margin-left: 150px;
+}
+.round{
+    color: black;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.text{
+    color: black;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.contact{
+    color: white;
+    font-size: 50px;
+    margin-left: 45px;
+}
+.last{
+    color: white;
+    font-size: 25px;
+    margin-left: 40px;
+}
+.learn{
+    width: 130px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    margin-left: 40px;
+}
+.form{
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.form1{
+    font-size: 18px;
+    margin-left: 100px;
+    text-align: center;
+}
+.form2{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 350px;
+    bottom: 50px;
+}
+.form3{
+    font-size: 18px;
+    position: relative;
+    left: 300px;
+    bottom: 25px;
+    text-align: left;
+}
+.form4{
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.form5{
+    font-size: 18px;
+    margin-left: 100px;
+    width: 500px;
+    text-align: left;
+}
+.form6{
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+    
+}
+.form7{
+    font-size: 18px;
+    margin-left: 100px;
+    text-align: left;
+}
+.form8{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 100px;
+}
+.b{
+    height:80%;
+    width: 100%;
+    background-color:whitesmoke;
+    
+}
+.c{
+    height: 60px;
+    width: 100%;
+    background-color: aliceblue;
+    position: static;
+}
+.c1{
+    height: 130px;
+    width: 100%;
+    border: 1px solid gray;
+    background-color: orange;
+    position: static;
+}
+
+.d{
+    height: 380px;
+    width: 90%;
+    border: 1px solid rgb(25, 15, 15);
+    background-color: bisque;
+    position: relative;
+    bottom: 160px;
+    
+    
+}
+.e{
+    height:380px ;
+    width: 25%;
+    border:1px solid gray ;
+    background-color: aliceblue;
+    float: left;
+}
+.e1{
+    height: 220px;
+    width: 350px;
+    border: 1px solid gray;
+    background-color: aquamarine;
+    background-image: url('../images/truck.jpg');
+    background-size: cover;
+}
+.e2{
+    height: 160px;
+    width: 350px;
+    border: 1px solid gray;
+    background-color: grey;
+}
+.f{
+    height: 380px;
+    width: 25%;
+    border: 1px solid gray;
+    background-color:gainsboro;
+    float: left;
+}
+.f1{
+    height: 220px;
+    width: 350px;
+    border: 1px solid gray;
+    background-color: lightblue;
+    background-image: url('../images/port.jpg');
+    background-size: cover;
+}
+.f2{
+    height: 160px;
+    width: 350px;
+    border: 1px solid gray;
+    background-color: rgb(116, 109, 109);
+   
+
+}
+.g{
+    height: 380px;
+    width: 25%;
+    border: 1px solid gray;
+    background-color: greenyellow;
+    float: left;
+}
+.g1{
+    height: 220px;
+    width: 350.5px;
+    border: 1px solid gray;
+    background-color: goldenrod;
+    background-image: url('../images/worker.jpg');
+    background-size: cover;
+}
+.g2{
+    height: 160px;
+    width: 350.5px;
+    border: 1px solid gray;
+    background-color: rgb(99, 87, 87);
+
+}
+.h{
+    height: 380px;
+    width: 24.5%;
+    border: 1px solid gray;
+    background-color: aqua;
+    float:right;
+}
+.h1{
+    height: 220px;
+    width: 346px;
+    border: 1px solid gray;
+    background-color: yellowgreen;
+    background-image: url('../images/ourteam.jpg');
+    background-size: cover;
+}
+.h2{
+    height: 160px;
+    width: 346px;
+    border: 1px solid gray;
+    background-color: rgb(87, 83, 83);
+
+}
+.i{
+    height:80%;
+    width: 100%;
+    background-color: white;   
+}
+.i1{
+    height: 100%;
+    width: 505px;
+    background-color: white;
+    float: left;
+    border-left: 15px;
+}
+.i2{
+    height: 80%;
+    width: 526px;
+    background-color: palevioletred;
+    float: left;
+    background-image: url('../images/oldman.jpg');
+    background-size: cover;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 15px;
+    margin-right: 6px;
+    
+}
+.i3{
+    height: 100%;
+    width: 500px;
+    background-color: white;
+    float: right;
+}
+.i4{
+    height:80px;
+    width: 80px;
+    background-color: orange;
+    float: right;
+    margin-right: 200px;
+}
+.j{
+    height:100%;
+    width: 100%;
+    background-image: url('../images/factorytrucks.jpg');
+    background-size: cover;
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.j1{
+    height: 500px;
+    width:1000px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.j2{
+    height: 500px;
+    width: 500px;
+    float: left;
+}
+.j3{
+    
+    height: 500px;
+    width: 496px;
+    float: right;
+
+}
+.k{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.k1{
+    height: 85%;
+    width:700px ;
+    background-color: aquamarine;
+    float: left;
+    background-image: url('../images/warehouse.jpg');
+    background-size: cover;
+    margin-top:50px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    position: static;
+   
+}
+.k2{
+    height: 30%;
+    width: 550px;
+    background-color: orange;
+    float:right;
+    position: relative;
+    top: 200px;
+    right: 480px;
+}
+.k3{
+    height: 30%;
+    width: 500px;
+    background-color: white;
+    float:right;
+    position: relative;
+    top: 210px;
+    right: 260px;
+}
+.l{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(201, 152, 60);
+}
+.l1{
+    height: 400px;
+    width: 100%;
+    background-color: orange;
+    position: static;
+}
+.l2{
+    height: 1s00px;
+    width: 100%;
+    background-color: black;
+    position: static;
+}
+.l3{
+    height: 380px;
+    width: 800px;
+    background-color: aqua;
+    position: relative;
+   bottom: 230px;
+    left: 380px;
+    background-image: url('../images/container.jpg');
+   background-size: cover;
+}
+.l4{
+    height: 140px;
+    width: 360px;
+    border: 1px solid gray;
+    background-color: white;    
+    float: right;
+    margin-left: 90px;
+    margin-top: 100px;
+    position: relative;
+    left: 80px;
+    bottom: 60px;
+}
+.l5{
+    height: 140px;
+    width: 360px;
+    border: 1px solid gray;
+    background-color: white;    
+    float: right;
+    margin-left: 90px;
+    margin-top: 100px;
+    position: relative;
+    right: -80px;
+    bottom: 150px;
+}
+.l6{
+    height: 140px;
+    width: 360px;
+    border: 1px solid gray;
+    background-color: white;    
+    float: right;
+    margin-left: 90px;
+    margin-top: 100px;
+    position: relative;
+    left: 76px;
+    bottom: 240px;
+}
+.m{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    position: static;
+}
+.m1{
+    height: 705px;
+    width: 860px;
+    background-color: white;
+}
+.m3{
+    height: 350px;
+    width: 860px;
+    background-color: white;
+    position: static;
+}
+.m4{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border-radius: 350px;
+    margin-left: 90px;
+    background-image: url('../images/engineer.jpg');
+    background-size: cover;
+}
+.m5{
+    height: 351px;
+    width: 376px;
+    background-color: white;
+    float: right;
+    position: relative;
+    bottom: 420px;
+}
+.m6{
+    height: 290px;
+    width: 500px;
+    background-color: white;
+    margin-left: 70px;
+    margin-top:23px;
+    background-image: url('../images/transportation.jpg');
+    background-size: cover;
+}
+.m7{
+    height: 560px;
+    width: 185px;
+    background-color: orange;
+    float: right;
+    position: relative;
+   left: 820px;
+   bottom: 630px;
+}
+.m8{
+    height: 260px;
+    width: 260px;
+    background-color: darkolivegreen;
+    float: right;
+    position: relative;
+    bottom: 520px;
+    left: 1050px;
+    border-radius: 350px;
+    background-image: url('../images/officebuildings.jpg');
+    background-size: cover;
+}
+.n{
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+    background-image: url('../images/scenicdistrict.jpg');
+    background-size: cover;
+    position: static;
+}
+.n2{
+    height: 400px;
+    width: 1200px;
+    float: left;
+    position: relative;
+    bottom: 400px;
+    left: 180px;
+}
+.n3{
+    height: 400px;
+    width: 500px;
+    float: left;
+}
+.n4{
+    height: 400px;
+    width: 696px;
+    float: right;
+    position: static;
+}
+.o{
+    height:200px;
+    width: 100%;
+    background-color: black;
+} 
+.footer{
+   
+    color: white;
+    font-size: 20px;
+    position: relative;
+    right: 560px;
+} 
+
+
+
+   
+
+
+
+
+
+
+

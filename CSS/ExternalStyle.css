@@ -1,0 +1,36 @@
+.External{
+    border: 2px solid skyblue;
+    font-size: 30;
+    background-color:pink;
+}
+#main{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+}
+span{
+    color: brown;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    padding: 0px;
+}
+input[type]{      /*input[type="text"]*/
+    color: purple;
+}
+a[href]{
+    background-color: yellow;
+}
+a:visited{
+    color: olivedrab;
+}
+a:hover{
+    font-size:30px ;
+    color:red;
+}
+a:active{
+    color: rgb(17, 134, 236);
+}
