@@ -1,0 +1,71 @@
+.a{
+    height: 150%;
+    width: 100%;
+    background-color: white;
+}
+.a2{
+    height: 100%;
+    width: 620px;
+    background-color:white;
+    float: left;
+}
+.a3{
+    height: 350px;
+    width: 400px;
+    position: relative;
+    top: 240px;
+    left: 110px;
+}
+.a4{
+    color: black;
+    font-size: 30px;
+    position: relative;
+    top: 270px;
+    left: 110px;
+}
+.a5{
+    color: rgb(71, 71, 71);
+    font-size: 16px;
+    position: relative;
+    top: 290px;
+    left: 110px;
+}
+.b{
+    height: 100%;
+    width: 626px;
+    background-color:orange;
+    float: right;
+}
+.b1{
+    height: 40px;
+    width: 220px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left:55px;
+}
+.b2{
+    height: 40px;
+    width: 220px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left:85px;
+}
+.b3{
+    height: 40px;
+    width: 475px;
+    text-align: center;
+    position: relative;
+    top: 130px;
+    left:55px;
+}
+.b4{
+    height: 40px;
+    width: 475px;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    left:55px;
+}
+

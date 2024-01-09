@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Animations in CSS</title>
+        <style>
+            #one{
+                height: 300px;
+                width: 300px;
+                background-color: blue;
+                border: 1px solid black;
+                position: relative;
+                float: left;
+                margin-right: 20px;
+                border-radius: 100%;
+                /*animation-name: testing;
+                animation-duration: 3s;
+                animation-iteration-count: 3;
+                animation-delay: 2s;
+                animation-direction:reverse ;
+                animation-fill-mode: backwards;*/
+                animation:testing 3s ease-in-out 5 2s normal ;
+            }
+            @keyframes testing{
+                /*from{
+                    background-color: blue;
+                }
+                to{
+                    background-color: green;
+                }*/
+                0%{
+                    background-color: bisque;top: 0px;left: 0px;
+                }
+                25%{
+                    background-color: orange;top: 0px;left: 600px;
+                }
+                50%{
+                    background-color: blueviolet;top: 300px;left: 600px;
+                }
+                75%{
+                    background-color: brown;top: 300px;left: 0px;
+                }
+                100%{
+                    background-color: lightseagreen;top: 0px;left: 0px;
+                }
+            }
+            
+        </style>
+    </head>
+    <body>
+        <center><h1>Animations in CSS</h1></center>
+        <hr>
+        <div id="one"></div>
+    </body>
+</html>
