@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects in JS</title>
+</head>
+<body>
+    <h1>Objects in JS</h1>
+    <hr>
+    <script>
+        let users ={
+            name:'ganga',
+            id:6655,
+            colllege:'Thub'
+        }
+        console.log(users)
+        console.log(users.id)//dot notation
+        console.log(users['name'])//array notation
+        users.name='durga' //modifying the value of property
+        console.log(users.name)
+        users.age=56 //adding new property to object
+        console.log(users)
+        delete users.age //deleting a property in object
+        console.log(users)
+        console.log('age' in users) //checking if a  property exists 
+        console.log('name' in users) //checking if a  property exists 
+        
+
+    </script>
+    
+</body>
+</html>
