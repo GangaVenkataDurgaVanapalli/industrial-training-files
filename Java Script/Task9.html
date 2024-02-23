@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task9</title>
+</head>
+<body>
+    <p><h1>Count is : <span id="a">0</span></p></h1> 
+    <button onclick="inc()">Increment</button>
+    <button onclick="dec()">Decrement</button>
+    <script>
+        function inc()
+        {
+            var b=document.getElementById("a").innerText;
+            var c=parseInt(b);
+            c=c+1;
+            document.getElementById("a").innerText=c;
+        }
+        function dec()
+        {
+            var b=document.getElementById("a").innerText;
+            var c=parseInt(b);
+            c=c-1;
+            document.getElementById("a").innerText=c;
+        }
+    </script>
+</body>
+</html>

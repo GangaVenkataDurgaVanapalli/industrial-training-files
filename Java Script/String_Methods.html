@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Methods in JS</title>
+</head>
+<body>
+    <h1><center>String Methods in JS</center></h1>
+    <hr>
+    <script type="text/javascript">
+        function strMethods(str_name){
+            document.write('<br>'+str_name+'</b><br>');
+        }
+        let str1="Ganga";
+        let str2="Varshi"
+        strMethods("Original Value:"+str1);
+        //length of the string
+        strMethods("Length of the string:"+str1.length);
+         // to find out the value at particular position
+        strMethods("CharAt of the string:"+str1.charAt(0));
+        strMethods("Using At: "+str1.at(-1)) // in at() we use negative index which is not possible in charAt() method
+        //to find the index of the particular value in the string
+        strMethods("Index of the string:"+str1.indexOf('n'));
+        // to find the last index
+        strMethods("LastIndex of the string:"+str1.lastIndexOf('a'));
+        //string concat
+        strMethods("Concat of the string:"+str1.concat(str2));
+        //multiple strings
+        strMethods("Concat multiple: "+str1.concat(str2,str1));
+        // to lowercase
+        strMethods("LowerCase of the string:"+str1.toLowerCase());
+        // to uppercase
+        strMethods("UpperCase of the string:"+str1.toUpperCase());
+        // trim is used to remove extra spaces
+        strMethods("Trim:"+str1.trim());// trimStart(),trimEnd()
+        // starts with 
+        strMethods("startsWith:"+str1.startsWith('g'));
+        // ends with
+        strMethods("EndsWith:"+str1.endsWith('a'));
+         //split
+        strMethods("Split:"+str1.split(""));
+        console.log(str1.split(""));
+        let str3="Ganga_Venkata_Durga";
+        strMethods("Split:"+str3.split("_"));
+        //slice method
+        strMethods("Slice of string:"+str1.slice(2,5));
+        strMethods("Slice of string:"+str1.slice(-2));
+        strMethods("Slice of string:"+str1.slice(-5));
+        strMethods("Slice of string:"+str1.slice(-4,-2));
+        //substring method
+        //it is allowing the positive indexces
+        strMethods("Substring of string:"+str1.substring(1,4));
+        //substr method
+        strMethods("Substr of string:"+str1.substr(3,5));
+        //includes method
+        strMethods("Include of string:"+str1.includes('Ganga'));
+        //repeat method
+        strMethods("Repeat of string:"+str1.repeat(3));
+        //replace method
+        strMethods("Replace of string:"+str1.replace('Ganga','Durga'));
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

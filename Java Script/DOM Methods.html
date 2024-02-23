@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Methods in JS</title>
+</head>
+<body>
+    <a href="">Click Me</a>
+    <h1 id="a">Hello</h1>
+    <h2>Hii</h2>
+    <h2>Hey</h2>
+    <p class="p">All</p>
+    <p class="p">Good morning</p>
+    <p class="b">Paragraph</p>
+    <p id="head">Ganga</p>
+    <p id="head">Durga</p>
+    <p class="new">Hai</p>
+    <p class="new">Friends</p>
+    <span>Ganga</span>
+    <span>Durga</span>
+    <p id="date"></p>
+    <a id="my_anchor"><h1>Click</h1></a>
+    <script>
+        //To print entire document structure
+        // console.log(document)
+        // console.log(document.head)
+        // console.log(document.body)
+        //by using id
+        const Byid=document.getElementById('a');
+        Byid.style.color='blue'
+        Byid.style.fontSize='60px'
+        console.log(Byid)
+        //by using class
+        const ClsId = document.getElementsByClassName('p')
+        console.log(ClsId)
+        ClsId[1].style.color="Blue";
+
+        //by using Tag name
+        const Tag=document.getElementsByTagName('h2')
+        console.log(Tag)
+        Tag[0].style.color="green";
+        //by using query selector('#id,.class,tag')
+        document.querySelector("p").style.backgroundColor="pink";
+        document.querySelector("#a").style.backgroundColor="red";
+        document.querySelector(".b").style.backgroundColor="yellow";
+        //query selector all
+        //by using id
+        let heads=document.querySelectorAll("#head");
+        console.log(heads)
+        heads[0].style.backgroundColor="lightgreen";
+        heads[1].style.backgroundColor="lightblue";
+         //by using class name
+         let local=document.querySelectorAll(".new");
+        console.log(local)
+        local[0].style.fontSize="50px";
+        local[1].style.fontSize="50px";
+         //by using tag name
+         let element=document.querySelectorAll("span");
+        console.log(element)
+        element[0].style.fontWeight="bold";
+        element[1].style.fontWeight="italic";
+        //setAttribute
+        const MyAnch=document.getElementById('my_anchor');
+        MyAnch.setAttribute("href","https://youtube.com")
+        MyAnch.setAttribute("target","_blank")
+        //create element
+        const NewDiv = document.createElement("div");
+       NewDiv.innerHTML="<h1>This is a new div";
+       NewDiv.style.cssText=`width:300px;
+                             height:300px;
+                             background-color:pink;
+                             border:1px solid black;
+                             border-radius:20px;
+                             `
+
+       const bdy=document.body
+       console.log(bdy);
+       bdy.appendChild(NewDiv);
+        const NewBtn=document.createElement("button");
+        NewBtn.innerText="Click me";
+        NewBtn.setAttribute("id","btn_id")
+        bdy.appendChild(NewBtn)
+        //eventListner
+        const MyBtn=document.getElementById('btn_id');
+        MyBtn.addEventListener("mouseover",Myfunc1)
+        MyBtn.addEventListener("mouseout",Myfunc2)
+        MyBtn.addEventListener("click",Myfunc3)
+        function Myfunc1(){
+            bdy.style.backgroundColor="green"
+        }
+        function Myfunc2(){
+            bdy.style.backgroundColor="skyblue"
+        }
+        NewBtn.addEventListener("click",Myfunc3)
+        function Myfunc3(){
+           const date=new Date();
+           document.getElementById("date").innerText=date;
+        }
+      
+    
+        
+    </script>
+    
+</body>
+</html>

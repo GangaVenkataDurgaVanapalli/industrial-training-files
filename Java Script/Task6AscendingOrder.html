@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Bootstrap/bootstrap/css/bootstrap.min.css">
+    <script src="../Bootstrap/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <title>Task6 Ascending order</title>
+</head>
+<body>
+    <table class="table table-bordered" border="2px">
+        <tr>
+            <th  class="a"></th>
+            <th  class="a"></th>
+            <th  class="a"></th>
+          </tr>
+          <tr>
+            <th  class="a"></th>
+            <td class="a"></td>
+            <td class="a"></td>
+          </tr>
+          <tr>
+            <th  class="a"></th>
+            <td class="a"></td>
+            <td class="a"></td>
+          </tr>
+      </table>
+      <button onclick="myfun()">Ascending order</button>
+      <script>
+        function myfun()
+        {
+          const b=document.getElementsByClassName('a');
+           console.log(b);
+           for(let i=0;i<b.length;i++)
+           {
+               b[i].innerText=i+1;
+           }
+        }
+      </script>
+</body>
+</html>

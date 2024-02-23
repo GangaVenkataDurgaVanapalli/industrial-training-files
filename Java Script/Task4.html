@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task4</title>
+</head>
+<body>
+    <h1>Hello</h1>
+    <h1>Bye</h1>
+    <p id="a">Hello</p>
+    <p id="a">Hii</p>
+    <p class="new">Hey</p>
+    <p class="new">Ganga</p>
+    <div>A div element</div>
+    <script>
+        const s=document.querySelectorAll('#a,.new,h1,div');
+        console.log(s);
+        for (let i=0;i<s.length;i++)
+        {
+            s[i].style.backgroundColor="aqua";
+        }
+        s[6].style.backgroundColor="yellow";
+    </script>
+    
+</body>
+</html>

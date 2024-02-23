@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline Event Handlers</title>
+</head>
+<body>
+    <button onclick="sample()">Click here</button>
+    <br>
+    <b id="sp_id"></b>
+    <!-- first way(Inline) -->
+    <script type="text/Javascript">
+        function  sample() {
+            document.body.style.backgroundColor='lightblue';
+            document.getElementById('sp_id').innerText="This is a Inline Event Handlers";
+            
+        }
+    </script>
+    
+</body>
+</html>

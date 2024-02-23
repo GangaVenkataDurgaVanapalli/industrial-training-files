@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task3</title>
+</head>
+<body>
+    <h1>Original Colleges:-</h1>
+    <ul>
+        <li>AEC</li>
+        <li>ACET</li>
+        <li>ACOE</li>
+    </ul>
+    <h1>Changed Colleges:-</h1>
+    <ul>
+        <li>AEC</li>
+        <li>ACET</li>
+        <li>ACOE</li>
+       
+    </ul>
+    <script>
+        const a=document.getElementsByTagName('li')
+        console.log(a)
+        a[3].innerHTML='<b>Aditya Engineering College</b> ';
+        a[4].innerHTML='<b>Aditya College Of Engineering and Technology</b>';
+        a[5].innerHTML='<b>Aditya College Of Engineering</b>';
+        a[3].style.backgroundColor='pink';
+        a[4].style.border='3px red solid';
+        a[5].style.fontFamily='cursive';
+    </script>
+    
+</body>
+</html>

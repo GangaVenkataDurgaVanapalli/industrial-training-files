@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Bootstrap/bootstrap/css/bootstrap.min.css">
+    <script src="../Bootstrap/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <title>Task8</title>
+</head>
+<body>
+    <table class="table table-bordered" border="2px">
+        <tr>
+            <th  class="a"></th>
+            <th  class="a"></th>
+            <th  class="a"></th>
+          </tr>
+          <tr>
+            <th  class="a"></th>
+            <td class="a"></td>
+            <td class="a"></td>
+          </tr>
+          <tr>
+            <th  class="a"></th>
+            <td class="a"></td>
+            <td class="a"></td>
+          </tr>
+      </table>
+      <script>
+        var a=["Ganga","Varshi","Bhagya","Asha","Chanti","Ashmitha","Harini","Manu","Sarika"];
+        var col=["green","red","yellow","orange","pink","aqua","lightblue","lightgreen","skyblue"];
+        console.log(a);
+        var d=document.getElementsByClassName("a");
+        for(let i=0;i<a.length;i++)
+        {
+            d[i].style.backgroundColor=col[i];
+            d[i].innerText=a[i];
+           
+        }
+        
+        
+      </script>
+    
+</body>
+</html>
