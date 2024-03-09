@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity2</title>
+</head>
+<body>
+    <h1><center>Javascript String Methods</center></h1>
+    <hr>
+    <script type="text/javascript">
+        function strMethods(str_name){
+            document.write('<br>'+str_name+'</b><br>');
+        }
+        let str1="Ganga Venkata Durga";
+        let str2="Vanapalli";
+        //original value
+        strMethods("Original String is:-"+str1)
+        //substr method
+        strMethods("Substr of string:-"+str1.substr(3,5));
+        //substring method
+        strMethods("Substring of string:-"+str1.substring(1,4));
+        //replace method
+        strMethods("Replace of string:-"+str2.replace('Vanapalli','Durga'));
+        //Search method
+        strMethods("Search of string:-"+str1.search('Durga'));
+        // to convert lowercase
+        strMethods("LowerCase of the string:-"+str1.toLowerCase());
+        // to convert uppercase
+        strMethods("UpperCase of the string:-"+str1.toUpperCase());
+        //indexOf method
+        strMethods("Index of the string:-"+str1.indexOf('k'));
+         //includes method
+         strMethods("Include of string:-"+str1.includes('Ganga'));
+         //slice method
+        strMethods("Slice of string:-"+str1.slice(2,5));
+        strMethods("Slice of string:-"+str1.slice(-2));
+        strMethods("Slice of string:-"+str1.slice(-5));
+        strMethods("Slice of string:-"+str1.slice(-4,-2));
+        //string concat method
+        strMethods("Concat of the string:-"+str1.concat(str2));
+         //last indexOf method
+         strMethods("LastIndex of the string:-"+str1.lastIndexOf('a'));
+          // charCodeAt method
+        strMethods("CharcodeAt of the string:-"+str1.charCodeAt(0));
+        // trim method
+        strMethods("Trim of the string:-"+str1.trim());// trimStart(),trimEnd()
+         // charAt method
+         strMethods("CharAt of the string:-"+str1.charAt(7));
+         // valueOf method
+         strMethods("Valueof of the string:-"+str1.valueOf());
+        //split method
+        strMethods("Split of string:-"+str1.split(""));
+        console.log(str1.split(""));
+        let str3="Ganga_Venkata_Durga";
+        strMethods("Split of string:-"+str3.split("_"));
+        // toString method
+        strMethods("Tostrign  of the string:-"+str1.toString());
+         // match method
+         strMethods("Match  of the string:-"+str1.match('Ganga'));
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>functions</title>
+</head>
+<body>
+    <button onclick="funname()">Click Here</button><br>
+    EnterName:<input type="text" id="name"><br>
+    <button onclick="getname(document.getElementById('name').value)">Click</button><br>
+    <span id="n"></span>
+    <script>
+        //function with no parameters
+        // funname();
+        function funname(){
+            document.write("Hello")
+        }
+        //function with parameter
+        function getname(x){
+            const a=document.getElementById("n").innerText=x;
+            if(x.length<1){
+                alert("Enter name")
+            }
+        }
+        //function with 2 parameters
+        // add(45,45)
+        // function add(a=0,b=0){
+        //     document.write(a+b)
+        //     console.log(a+b)
+        // }
+        //arrow function
+        const add =(a,b) =>{
+            console.log(a+b)
+        }
+        add("45",45)
+
+        //arrow function
+        const concat =(a,b) =>{
+            console.log(a+""+b)
+            document.write(a+""+b)
+        }
+        concat("hari","kiran")
+        add(true,true)//2 //type number
+        add(0,true)//1 //type number
+        add("true",true)//truetrue //type string
+        add(true,"2")//true2 //type string
+        add("2","true")//2true //type string
+        //10+10+"10"=2010
+        //10+"10"+"10"=101010
+        //10+true+"10"=1110
+        //10+"10"+true=1010true
+
+        test = () => {
+            document.write("after 5 sec")
+        }
+        setTimeout(test,5000)
+
+        //Anonymous functions
+        const x = function (a, b) {document.write(a*b)};
+        x(4, 3);
+    </script>
+</body>
+</html>

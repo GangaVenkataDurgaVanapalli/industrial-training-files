@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Some Method</title>
+</head>
+<body>
+    <h1><center> Some Method In Array_Methods</center></h1>
+    <hr>
+    <script>
+        //arrow function
+        let trainees=["ganga@gmail.com","bhagya@gmail.com","varshitha@gmail.com"];
+        console.log(trainees);
+        let email_check=trainees.some((email,index,arr)=>{
+            return email=='ganga@gmail.com';
+        });
+        console.log(email_check);
+        //anonymous function
+        let trainee=["ganga@gmail.com","bhagya@gmail.com","varshitha@gmail.com"];
+        console.log(trainee);
+        let email_checks=trainee.some(function(email,index,arr){
+            return email=='durga@gmail.com';
+        });
+        console.log(email_checks);
+        //normal function
+        let traineess=["ganga@gmail.com","bhagya@gmail.com","varshitha@gmail.com"];
+        console.log(traineess);
+        let email_checkss=traineess.some(function name(email,index,arr){
+            return email=='varshitha@gmail.com';
+        });
+        console.log(email_checkss);
+
+
+    </script>
+    
+</body>
+</html>

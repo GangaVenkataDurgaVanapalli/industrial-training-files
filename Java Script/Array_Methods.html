@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array_Methods</title>
+</head>
+<body>
+    <h1><center>Array Methods in Javascript</center></h1>
+    <hr>
+    <ul>
+        <li>push</li>
+        <li>pop</li>
+        <li>shift</li>
+        <li>unshift</li>
+        <li>concat</li>
+        <li>slice</li>
+        <li>splice</li>
+        <li>indexOf</li>
+        <li>sort</li>
+    </ul>
+    <script type="text/javascript">
+        let courses=['html','css','bootstrap'];
+        console.log(courses);
+        //push method is used to add the elements in last position
+        courses.push('javascript');
+        console.log(courses);
+        //pop method is used to remove the elements in last position
+        courses.pop();
+        console.log(courses);
+        //unshift method
+        courses.unshift();
+        console.log(courses);
+        //shift method
+        courses.shift();
+        console.log(courses);
+        //concat method is used to concat  the elements 
+        let var1=['Apple','Banana','Grapes','Mango'];
+        let var2=['Potato','Tamota','Carrot'];
+        let  combined=var1.concat(var2);
+        console.log(combined);
+        //slice method
+        let a=combined.slice(1,4);
+        console.log(a);
+        //splice method
+        combined.splice(2,2,'Kiwi','Orange');
+        console.log(combined);
+        //indexOf method
+        let b=combined.indexOf('Tamota');
+        console.log(b);
+        //sort method
+        let fruits=['Apples','Bananas','Grapes','Dates'];
+        fruits.sort();
+        console.log(fruits);
+        
+
+
+        
+
+    </script>
+    
+</body>
+</html>

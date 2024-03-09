@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Method</title>
+</head>
+<body>
+    <h1><center>Find Method In Array_Methods</center></h1>
+    <hr>
+    <script>
+        //arrow function
+        let courses=["HTML","CSS","Bootstrap","JS"];
+        console.log(courses);
+        let getCourse=courses.find((course,index)=>{
+            return course.startsWith('B');//endsWith()
+        });
+        console.log(getCourse);
+        //anonymous function
+        let course=["HTML","CSS","Bootstrap","JS"];
+        console.log(course);
+        let getCourses=course.find(function(course,index){
+            return course.endsWith('L');//startsWith
+        });
+        console.log(getCourses);
+        //normal function
+        let lang=["HTML","CSS","Bootstrap","JS"];
+        console.log(lang);
+        let getCour=lang.find( function funname(course,index){
+            return course.startsWith('C');//startsWith
+        });
+        console.log(getCour);
+        
+        
+    </script>
+</body>
+</html>

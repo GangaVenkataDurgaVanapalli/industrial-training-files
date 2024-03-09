@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even and Odd Sum</title>
+</head>
+<body>
+    <h1><center>Sum Of Even Numbers & Odd Numbers </center></h1>
+    <hr>
+   <script>
+      var a=[1,2,3,4,5,6,7,8,9,10];
+      var evenSum=0;
+      var oddSum=0;
+      for(let i=0;i<a.length;i++)
+      {
+          
+          if(a[i]%2==0)
+          {
+             evenSum=evenSum+a[i];
+          }
+          else
+          {
+            oddSum=oddSum+a[i];
+          }
+         
+      }
+      document.write("Array is:- "+a+'<br>');
+      document.write("<br>Even sum:-"+evenSum+'<br>');
+      document.write("<br>Odd sum:-"+oddSum+'<br>');
+
+
+   </script> 
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Method</title>
+</head>
+<body>
+    <h1><center>Map Method In Array_Methods</center></h1>
+    <hr>
+    <h3><u>Array Methods | Map:-</u></h3>
+    <p>The map() method creates a new array with the results of calling a function for every array element.</p>
+    <script>
+        let birthyear=[1998,1999,2003,2005,2009,2015,2019];
+        //anonymous function
+        let ages=birthyear.map(function(ele,index,arr){
+            let age=2024-ele;
+            return "Current age is"+age;
+        })
+        //named function
+        let ag=birthyear.map(findAge)
+        function findAge(year,index,arr){
+            console.log("Current element is"+year);
+            console.log("Current index position is"+index);
+            console.log("Current array is"+arr);
+            let age=2024-year;
+            return "Current age is"+age;
+
+        }
+        console.table(birthyear);//old array
+        console.table(ag);//creates the new array
+
+        
+    </script>
+    
+</body>
+</html>

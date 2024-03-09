@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array_Methods</title>
+</head>
+<body>
+    <h1><center>Array Methods in Javascript</center></h1>
+    <hr>
+    <ul>
+        <li>push</li>
+        <li>pop</li>
+        <li>shift</li>
+        <li>unshift</li>
+        <li>concat</li>
+        <li>slice</li>
+        <li>splice</li>
+        <li>indexOf</li>
+        <li>sort</li>
+    </ul>
+    <script type="text/javascript">
+        let courses=['html','css','bootstrap']
+        //to add the element in last position of an array
+        courses.push('javasxript')
+        console.log(courses)
+        //to delete the element in last position of an array
+        courses.pop('javasxript')
+        console.log(courses)
+        //to add the element in 1st position of an array
+        courses.unshift('reactjs')
+        console.log(courses)
+        //to delete the element in 1st position of an array
+        courses.shift('reactjs')
+        console.log(courses)
+        //to add two array into a single array
+        let fruits=['banana','appple','orange','grapes']
+        let vegtables=['carrot','potato','tomota']
+        let combine=fruits.concat(vegtables)
+        console.log(combine)
+        //to display the certain valuees
+        let a=combine.slice(1,3)
+        console.log(a)
+        //to add the element in the middle/at any position of the array
+        combine.splice(2,2,'kiwi','dragonfruit')
+        console.log(combine)
+        //to know the index value of the element
+        let c=combine.indexOf('kiwi')
+        console.log(c)
+        //to arrange the elements in alphabatical order
+        let fruitslist1=['oranges','bananas','appples','dates']
+        fruitslist1.sort()
+        console.log(fruitslist1)
+    </script>
+</body>
+</html>

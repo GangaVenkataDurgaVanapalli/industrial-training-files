@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome or not</title>
+</head>
+<body>
+    <h1><center>Palindrome or Not By Given Number</center></h1>
+    <hr>
+    <h1><center></center></h1>
+    Enter any Number:<input type="text" id="a">
+    <button onclick="palindrome()">Submit</button>
+    <p id="demo"></p>
+    <script>
+           
+            function palindrome()
+            {
+                var n=document.getElementById("a").value;
+                console.log(n);
+                var sum=0;
+                var r;
+                var b;
+                b=n;
+                // console.log(b)
+                while(n!=0)
+                {
+                   r=n%10;
+                   sum=sum*10+r;
+                   n=parseInt(n/10);
+                }
+                console.log(sum)
+                if(sum==b)
+                {
+                    document.getElementById("demo").innerText="The given number "+b+" is a palindrome";
+                }
+                else
+                {
+                    document.getElementById("demo").innerText="The given number "+b+" is not a palindrome";
+                    
+                }
+            }
+    </script>
+</body>
+</html>
