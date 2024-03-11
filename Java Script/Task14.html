@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task14 Automatic Changing Images </title>
+    <style>
+        .a
+        {
+            width:400px;
+            height: 300px;
+        }
+        #e
+        {
+            width: 20px;
+            height: 20px;
+            background-color: grey;
+            border-radius: 50px;
+            margin-left: 850px;
+            margin-top: 10px;
+            float: left;
+            position: relative;
+           right: 250px; 
+           bottom: 30px;
+        }
+        #c
+        {
+            width: 20px;
+            height: 20px;
+            background-color: rgb(216, 211, 211);
+            border-radius: 50px;
+            margin-left: 10px;
+            margin-top: 10px;
+           float: left;
+           position: relative;
+           right: 250px; 
+           bottom: 30px;
+        }
+        #d
+        {
+            width: 20px;
+            height: 20px;
+            background-color: rgb(216, 211, 211);
+            border-radius: 50px;
+            margin-left: 10px;
+            margin-top: 10px;
+            float: left;
+            position: relative;
+           right: 250px; 
+           bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1><center>Automatic Changing Images</center></h1>
+    <hr>
+    <center>
+        <div class="a">
+            <img src="../Images/Thub55.png" id="b">
+        </div>
+        <div id="e"></div>
+        <div id="c"></div>
+        <div id="d"></div>
+    </center>
+    <script>
+        sample()      
+        function sample()
+        {
+        setTimeout(test,1500)
+        function test()
+        {
+              b.setAttribute("src","../Images/Thub.png")
+              document.getElementById("c").style.backgroundColor="grey";
+              document.getElementById("e").style.backgroundColor="rgb(216, 211, 211)";
+              sample1(); 
+        }   
+        }
+        function sample1()
+        {
+        setTimeout(image,2000)
+        function image()
+        {
+              b.setAttribute("src","../Images/Activity photo.png")
+              document.getElementById("d").style.backgroundColor="grey";
+              document.getElementById("c").style.backgroundColor="rgb(216, 211, 211)";
+
+              document.getElementById("e").style.backgroundColor="rgb(216, 211, 211)";
+              sample2();
+        }     
+        } 
+        function sample2()
+        {
+        setTimeout(function()
+        {
+            b.setAttribute("src","../Images/Thub55.png")
+              document.getElementById("e").style.backgroundColor="grey";
+              document.getElementById("c").style.backgroundColor="rgb(216, 211, 211)";
+
+              document.getElementById("d").style.backgroundColor="rgb(216, 211, 211)";
+              sample();
+        },3000)
+     }
+    </script>
+</body>
+</html>
